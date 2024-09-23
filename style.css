@@ -1,0 +1,815 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #080808;
+    color:blue;     
+}
+.log
+{
+    color: white;
+    
+}
+.home
+{
+    height: 100vh;
+    width: 90%; 
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/642d7f757ea5ed907f392965/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds);  
+     padding-left: 60px;
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    padding-left:650px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 10px 25px;
+}
+nav ul li a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: unset;
+    padding-left: 2px;
+}
+nav ul li a 
+{
+
+}
+nav ul li a:hover
+{
+    cursor:pointer;
+    text-decoration: #0ef underline;
+    transition:1s;
+    width:  0px;
+    overflow: visible;
+    color:  #0ef;   
+}
+nav ul li a:hover::after
+{
+        width:  100%;
+}
+.hom
+{
+    color: black;
+    margin-top: 13%;
+    font-size: 20px;
+    margin-left: 30PX;
+    font-family: cursive;
+}
+.hom h1 span
+{
+    color: red;
+}
+.fro
+{
+    font-size: 25px;
+}
+--------------------about--------------------/
+
+.abo-lis
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ab
+{
+    color: white;
+    text-align: center;
+    padding-right: 60px;
+    font-size: 50px;
+    grid-gap: 10px;
+    padding-right: 700px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.ph img 
+{
+    padding-left: 100px;
+    border-radius: 60px; 
+    padding-top: 20px;
+}
+.sec p
+{
+    color: white;
+}
+.ski 
+{
+    margin-left: 5px;
+    margin-top: 40px;
+    
+}
+.edu
+{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: cursive;
+    display: inline-block;
+}
+.skii
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 38px;
+    font-size: 23px;
+    font-family: cursive;
+    display: inline-block;
+
+}
+.edu:hover
+{
+    color: red;
+    transition: 0.5s;
+    transform: translateY(-3px);
+}
+.skii:hover
+{
+    color: red;
+    transition: 0.5s;transform: translateY(-3px);
+}
+.t-c span
+{
+    color: red;
+    font-size: 18px;
+} 
+.t-c ul li
+{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+}
+.t-c
+{
+/*  display: none;*/
+}
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-------------work------------------/
+.work
+{
+    height: 100vh;
+    width: 100%;
+
+}
+.wr 
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.work-list
+{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr) ;
+    color: white;
+    padding-top: 30px;
+    grid-gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.work-list div
+{
+    background-color: #262626;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    transition: background 0.5s, transform 0.5s;
+
+
+}
+.work-list div h3
+{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.work-list div i
+{
+    font-size: 40px;
+    color: ghostwhite;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.work-list div p
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.work-list div a 
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+}
+
+.work-list div:hover
+{
+    transform: translateY(-10px);
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /-------contact---------/ */
+.contact
+{
+   background-color: black;
+   height: 400px;
+   padding-left: 100px;
+
+   font-size: 30px;
+
+}
+.contact h1
+{
+    padding-left: 160px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.leme
+{
+    color: white;
+    flex-basis: 35%;
+    background-color: #000000;
+
+}
+.tab
+{
+    flex-basis: 60%;
+    color: white;
+    padding-left: 25%;
+}
+
+.icons a
+{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 10px;
+    transition:0.5s; 
+    padding-top: 10px;
+    text-align: center;
+
+}
+.icons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+#ins 
+{
+    padding-left:0px;
+    display: inline-block;
+}
+.icons a:hover
+{
+    color: red;
+    transform: translateY(-5px);
+    
+}
+.sen
+{
+    font-size: 20px;
+    color: red;
+    padding-left: 25%;
+}
+.sen i
+{
+    margin-right: 5px;
+}
+.sen span
+{
+    color: white;
+    margin-right: 5px;
+}
+
+.boo 
+{
+    padding-right: 15px;
+    margin-left: 5px;
+}
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 540px;
+
+}
+.btn:hover
+{
+    color: black;
+}
+.form 
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+form input,form textarea
+{
+    background-color: #262626;
+    padding-left: 5px;
+    padding-right: 300px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 20px;
+
+}
+form button
+{
+    background-color: red;
+    border: 0;
+    font-size: 20px;
+    margin-left: 220px;
+    padding: 6px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+form button:hover
+{
+    cursor: pointer;
+    color: white;
+}*
+{
+    padding: 0px;
+    margin:0px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #080808;
+    color:blue;     
+}
+.log
+{
+    color: white;
+    
+}
+.home
+{
+    height: 100vh;
+    width: 100%; 
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/642d7f757ea5ed907f392965/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds);
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    padding-left: 950px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 10px 25px;
+}
+nav ul li a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: unset;
+    padding-left: 2px;
+}
+nav ul li a:hover
+{
+    cursor:pointer;
+    text-decoration: #0ef underline;
+    transition:1s;
+    width:  0px;
+    overflow: visible;
+    color:  #0ef;   
+}
+nav ul li a:hover::after
+{
+        width:  100%;
+}
+.hom
+{
+    color: black;
+    margin-top: 13%;
+    font-size: 20px;
+    margin-left: 30PX;
+    font-family: cursive;
+}
+.hom h1 span
+{
+    color: red;
+}
+.fro
+{
+    font-size: 25px;
+}
+/* /--------------------about--------------------/ */
+
+.abo-lis
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.ab
+{
+    color: white;
+    text-align: center;
+    padding-right: 60px;
+    font-size: 50px;
+    grid-gap: 10px;
+    padding-right: 700px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.ph img 
+{
+    padding-left: 100px;
+    border-radius: 60px; 
+    padding-top: 20px;
+}
+.sec p
+{
+    color: white;
+}
+.ski 
+{
+    margin-left: 5px;
+    margin-top: 40px;
+    
+}
+.edu
+{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: cursive;
+    display: inline-block;
+}
+.skii
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 38px;
+    font-size: 23px;
+    font-family: cursive;
+    display: inline-block;
+
+}
+.edu:hover
+{
+    color: red;
+    transition: 0.5s;
+    transform: translateY(-3px);
+}
+.skii:hover
+{
+    color: red;
+    transition: 0.5s;transform: translateY(-3px);
+}
+.t-c span
+{
+    color: red;
+    font-size: 18px;
+} 
+.t-c ul li
+{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+}
+
+
+
+/* /-------------work------------------/ */
+.work
+{
+    height: 100vh;
+    width: 100%;
+
+}
+.wr 
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.work-list
+{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr) ;
+    color: white;
+    padding-top: 30px;
+    grid-gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.work-list div
+{
+    background-color: #262626;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    transition: background 0.5s, transform 0.5s;
+
+
+}
+.work-list div h3
+{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.work-list div i
+{
+    font-size: 40px;
+    color: ghostwhite;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.work-list div p
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.work-list div a 
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+}
+
+.work-list div:hover
+{
+    transform: translateY(-10px);
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/-------contact---------/
+.contact
+{
+   background-color: black;
+   height: 400px;
+   padding-left: 100px;
+
+   font-size: 30px;
+
+}
+.contact h1
+{
+    padding-left: 160px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.leme
+{
+    color: white;
+    flex-basis: 35%;
+    background-color: #000000;
+
+}
+.tab
+{
+    flex-basis: 60%;
+    color: white;
+    padding-left: 25%;
+}
+
+.icons a
+{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 10px;
+    transition:0.5s; 
+    padding-top: 10px;
+    text-align: center;
+
+}
+.icons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+    padding-right: 180px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+#ins 
+{
+    padding-left:0px;
+    display: inline-block;
+}
+.icons a:hover
+{
+    color: red;
+    transform: translateY(-5px);
+    
+}
+.sen
+{
+    font-size: 20px;
+    color: red;
+    padding-left: 25%;
+}
+.sen i
+{
+    margin-right: 5px;
+}
+.sen span
+{
+    color: white;
+    margin-right: 5px;
+}
+
+.boo 
+{
+    padding-right: 15px;
+    margin-left: 5px;
+}
+.btn {
+    ;
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 540px;
+
+}
+.btn:hover
+{
+    color: black;
+}
+.form 
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+form input,form textarea
+{
+    background-color: #262626;
+    padding-left: 5px;
+    padding-right: 300px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 20px;
+
+}
+form button
+{
+    background-color: red;
+    border: 0;
+    font-size: 20px;
+    margin-left: 220px;
+    padding: 6px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+form button:hover
+{
+    cursor: pointer;
+    color: white;
+}
+footer {
+    background-color: #262626; 
+    color: white; 
+    text-align: center;
+    padding: 10px 0; 
+    position: relative; 
+    width: 100%; 
+    bottom: 0;
+}
+
+footer .container
+ {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-left: 400px;
+}
+
+footer p 
+{
+
+    margin: 0;
+    font-size: 14px; 
+}
